@@ -78,7 +78,7 @@ tipNumber.map(x => x.addEventListener('click', () => {
     })
 )
 
-//New game
+                                //New game
 let newGame = document.querySelector('.newGame')
 newGame.addEventListener('click', () => {location.reload()
 return false})
